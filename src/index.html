@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Sajjad Siam</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="w-full h-15 bg-gray-800">
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-4"
+      >
+        <div class="text-2xl font-bold text-white">Sajjad Siam</div>
+        <nav class="space-x-6">
+          <a href="#" class="text-gray-300 hover:text-white">Home</a>
+          <a href="#" class="text-gray-300 hover:text-white">About</a>
+          <a href="#" class="text-gray-300 hover:text-white">Portfolio</a>
+          <a href="#" class="text-gray-300 hover:text-white">Blog</a>
+          <a href="#" class="text-gray-300 hover:text-white">Contact</a>
+        </nav>
+        <div>
+          <button class="bg-green-500 text-white px-4 py-2 rounded-full">
+            En
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="h-screen bg-cover bg-center relative"
+      style="background-image: url('img/bg_image_1.jpg')"
+    >
+      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div
+        class="relative z-10 flex flex-col items-center justify-center h-full text-center"
+      >
+        <h1 class="text-5xl md:text-xl font-bold text-white">Welcome</h1>
+        <h2 class="text-4xl md:text-5xl font-bold text-green-500 mt-4">
+          I'm Sajjad Siam
+        </h2>
+        <p class="text-xl md:text-2xl text-gray-300 mt-2">
+          Web Designer & Developer
+        </p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section
+      class="flex flex-col md:flex-row items-center justify-center md:space-x-10 space-y-6 md:space-y-0 max-w-7xl mx-auto py-12 px-4"
+    >
+      <!-- Image Section -->
+      <div class="relative ml-10">
+        <div
+          class="absolute inset-0 transform translate-x-4 translate-y-4 border-4 border-green-500 rounded-lg"
+        ></div>
+        <img
+          class="relative w-80 h-80 rounded-lg object-cover"
+          src="img/person.jpeg"
+          alt="Profile Image"
+        />
+      </div>
+
+      <!-- Text Section -->
+      <div class="text-center md:text-left md:ml-10">
+        <h2 class="text-4xl font-bold text-gray-800">Sajjad Siam</h2>
+        <p class="text-green-500 text-xl font-semibold mt-2">
+          Web Designer & Developer
+        </p>
+        <p class="text-gray-600 mt-4">
+          Consequatur voluptatem minima exercitationem culpa, amet fugit
+          laudantium fugiat, repellendus earum accusantium cumque deserunt quos
+          id quam quo!
+        </p>
+
+        <!-- Information List -->
+        <ul class="mt-6 space-y-2">
+          <li>
+            <span class="text-green-500">●</span> From:
+            <span class="font-semibold text-gray-800">Rajshahi, BD</span>
+          </li>
+          <li>
+            <span class="text-green-500">●</span> Lives In:
+            <span class="font-semibold text-gray-800">Rajshahi, BD</span>
+          </li>
+          <li>
+            <span class="text-green-500">●</span> Age:
+            <span class="font-semibold text-gray-800">21</span>
+          </li>
+          <li>
+            <span class="text-green-500">●</span> Gender:
+            <span class="font-semibold text-gray-800">Male</span>
+          </li>
+        </ul>
+
+        <!-- Download Button -->
+        <button
+          class="mt-8 px-6 py-3 bg-white border border-green-500 text-green-500 hover:bg-green-500 hover:text-white font-semibold rounded-full transition duration-300"
+        >
+          Download CV
+        </button>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="bg-gray-100 max-w-7xl mx-auto py-12 px-4">
+      <h2 class="text-3xl font-bold text-center mb-10">My Skills</h2>
+
+      <div class="ml-10 mr-10 grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div>
+          <h3 class="text-2xl font-semibold mb-4">Coding Skills</h3>
+
+          <div class="mb-4">
+            <p>HTML + CSS</p>
+            <div class="w-full bg-gray-200 rounded-full h-5">
+              <div
+                class="bg-green-500 h-5 rounded-full text-center text-white"
+                style="width: 100%"
+              >
+                100%
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <p>JavaScript</p>
+            <div class="w-full bg-gray-200 rounded-full h-5">
+              <div
+                class="bg-green-500 h-5 rounded-full text-center text-white"
+                style="width: 80%"
+              >
+                80%
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <p>Tailwind CSS</p>
+            <div class="w-full bg-gray-200 rounded-full h-5">
+              <div
+                class="bg-green-500 h-5 rounded-full text-center text-white"
+                style="width: 100%"
+              >
+                100%
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <p>ReactJS + NextJS</p>
+            <div class="w-full bg-gray-200 rounded-full h-5">
+              <div
+                class="bg-green-500 h-5 rounded-full text-center text-white"
+                style="width: 90%"
+              >
+                90%
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Design Skills -->
+        <div>
+          <h3 class="text-2xl font-semibold mb-4">Design Skills</h3>
+
+          <div class="mb-4">
+            <p>UI/UX Design</p>
+            <div class="w-full bg-gray-200 rounded-full h-5">
+              <div
+                class="bg-green-500 h-5 rounded-full text-center text-white"
+                style="width: 92%"
+              >
+                92%
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <p>Web Design</p>
+            <div class="w-full bg-gray-200 rounded-full h-5">
+              <div
+                class="bg-green-500 h-5 rounded-full text-center text-white"
+                style="width: 99%"
+              >
+                99%
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <p>Figma Design</p>
+            <div class="w-full bg-gray-200 rounded-full h-5">
+              <div
+                class="bg-green-500 h-5 rounded-full text-center text-white"
+                style="width: 89%"
+              >
+                89%
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <p>Logo Design</p>
+            <div class="w-full bg-gray-200 rounded-full h-5">
+              <div
+                class="bg-green-500 h-5 rounded-full text-center text-white"
+                style="width: 100%"
+              >
+                100%
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education and Experience Section -->
+    <section class="max-w-7xl ml-10 mr-10 mx-auto py-12 px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+        <h2 class="text-3xl font-bold text-gray-800 text-center md:text-left">
+          Education
+        </h2>
+        <h2 class="text-3xl font-bold text-gray-800 text-center md:text-left">
+          Experience
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8">
+        <div class="space-y-6">
+          <div class="flex items-start">
+            <div class="ml-6 bg-gray-50 p-6 rounded-lg shadow-md w-full">
+              <div class="flex items-center mb-2">
+                <span class="bg-green-500 text-white px-3 py-1 rounded-full"
+                  >2010</span
+                >
+              </div>
+              <h3 class="text-lg font-semibold">Specialized Course</h3>
+              <p class="text-sm text-green-500">University of Study</p>
+              <p class="text-gray-600 mt-2">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start">
+            <div class="ml-6 bg-gray-50 p-6 rounded-lg shadow-md w-full">
+              <div class="flex items-center mb-2">
+                <span class="bg-green-500 text-white px-3 py-1 rounded-full"
+                  >2009</span
+                >
+              </div>
+              <h3 class="text-lg font-semibold">Specialized Course</h3>
+              <p class="text-sm text-green-500">University of Study</p>
+              <p class="text-gray-600 mt-2">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-6">
+          <div class="flex items-start">
+            <div class="ml-6 bg-gray-50 p-6 rounded-lg shadow-md w-full">
+              <div class="flex items-center mb-2">
+                <span class="bg-green-500 text-white px-3 py-1 rounded-full"
+                  >2017 - Current</span
+                >
+              </div>
+              <h3 class="text-lg font-semibold">Position Title</h3>
+              <p class="text-sm text-green-500">Company of Work</p>
+              <p class="text-gray-600 mt-2">
+                Worked on various projects that contributed to the success of
+                the organization by driving innovation and efficiency.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start">
+            <div class="ml-6 bg-gray-50 p-6 rounded-lg shadow-md w-full">
+              <div class="flex items-center mb-2">
+                <span class="bg-green-500 text-white px-3 py-1 rounded-full"
+                  >2014 - 2017</span
+                >
+              </div>
+              <h3 class="text-lg font-semibold">Position Title</h3>
+              <p class="text-sm text-green-500">Company of Work</p>
+              <p class="text-gray-600 mt-2">
+                Gained valuable experience in managing cross-functional teams
+                and handling high-stakes projects efficiently.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="max-w-7xl bg-gray-50 mx-auto py-12 px-4 text-center">
+      <div class="flex justify-center mb-4">
+        <span
+          class="bg-red-100 text-green-500 text-sm font-semibold px-4 py-1 rounded-full"
+        >
+          Services
+        </span>
+      </div>
+      <h2 class="text-3xl md:text-4xl font-bold mb-12">What can I do?</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
+        <div class="flex flex-col items-center">
+          <div class="bg-gray-200 p-6 rounded-full mb-4">
+            <i class="fas fa-laptop-code text-4xl text-gray-800"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-green-500 mb-2">Web Design</h3>
+          <p class="text-gray-500">
+            There are many variations of passages of Lorem Ipsum available.
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <div class="bg-gray-200 p-6 rounded-full mb-4">
+            <i class="fas fa-search text-4xl text-gray-800"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-green-500 mb-2">SEO</h3>
+          <p class="text-gray-500">
+            There are many variations of passages of Lorem Ipsum available.
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <div class="bg-gray-200 p-6 rounded-full mb-4">
+            <i class="fas fa-paint-brush text-4xl text-gray-800"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-green-500 mb-2">
+            UI/UX Design
+          </h3>
+          <p class="text-gray-500">
+            There are many variations of passages of Lorem Ipsum available.
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <div class="bg-gray-200 p-6 rounded-full mb-4">
+            <i class="fas fa-pen-nib text-4xl text-gray-800"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-green-500 mb-2">
+            Content Writing
+          </h3>
+          <p class="text-gray-500">
+            High-quality content for blogs, websites, and social media.
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <div class="bg-gray-200 p-6 rounded-full mb-4">
+            <i class="fas fa-drafting-compass text-4xl text-gray-800"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-green-500 mb-2">
+            Graphic Design
+          </h3>
+          <p class="text-gray-500">
+            Creative design solutions for your branding and marketing needs.
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <div class="bg-gray-200 p-6 rounded-full mb-4">
+            <i class="fas fa-bullhorn text-4xl text-gray-800"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-green-500 mb-2">
+            Digital Marketing
+          </h3>
+          <p class="text-gray-500">
+            Effective online marketing strategies to boost your business.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="max-w-7xl mx-auto ml-10 mr-10 py-12 px-4 text-center">
+      <div class="flex justify-center mb-4">
+        <span
+          class="bg-red-100 text-green-500 text-sm font-semibold px-4 py-1 rounded-full"
+          >Portfolio</span
+        >
+      </div>
+
+      <h2 class="text-3xl md:text-4xl font-bold mb-8">See My Work</h2>
+
+      <div class="flex justify-center flex-wrap space-x-4 mb-8">
+        <button
+          class="filter-btn bg-green-500 text-white px-4 py-2 rounded-full focus:outline-none mb-2"
+          data-category="all"
+        >
+          All
+        </button>
+        <button
+          class="filter-btn border border-gray-300 text-gray-500 px-4 py-2 rounded-full focus:outline-none mb-2"
+          data-category="apps"
+        >
+          Apps
+        </button>
+        <button
+          class="filter-btn border border-gray-300 text-gray-500 px-4 py-2 rounded-full focus:outline-none mb-2"
+          data-category="template"
+        >
+          Template
+        </button>
+        <button
+          class="filter-btn border border-gray-300 text-gray-500 px-4 py-2 rounded-full focus:outline-none mb-2"
+          data-category="ios"
+        >
+          iOS
+        </button>
+        <button
+          class="filter-btn border border-gray-300 text-gray-500 px-4 py-2 rounded-full focus:outline-none mb-2"
+          data-category="uiux"
+        >
+          UI/UX
+        </button>
+        <button
+          class="filter-btn border border-gray-300 text-gray-500 px-4 py-2 rounded-full focus:outline-none mb-2"
+          data-category="graphic"
+        >
+          Graphic
+        </button>
+        <button
+          class="filter-btn border border-gray-300 text-gray-500 px-4 py-2 rounded-full focus:outline-none mb-2"
+          data-category="wireframes"
+        >
+          Wireframes
+        </button>
+      </div>
+
+      <div id="portfolio-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="portfolio-item relative group apps">
+          <img
+            src="img/work/work-1.jpg"
+            alt="Mobile Travel App"
+            class="w-full h-56 object-cover rounded-lg"
+          />
+          <div
+            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center"
+          >
+            <div class="text-white text-lg font-semibold p-4">
+              <p class="text-green-500 text-xl">Mobile Travel App</p>
+              <p class="text-sm">— Travel, Discovery</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item relative group template">
+          <img
+            src="img/work/work-2.jpg"
+            alt="Music App"
+            class="w-full h-56 object-cover rounded-lg"
+          />
+          <div
+            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center"
+          >
+            <div class="text-white text-lg font-semibold p-4">
+              <p class="text-green-500 text-xl">Music App</p>
+              <p class="text-sm">— Musics</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item relative group ios">
+          <img
+            src="img/work/work-3.jpg"
+            alt="Gaming Dashboard"
+            class="w-full h-56 object-cover rounded-lg"
+          />
+          <div
+            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center"
+          >
+            <div class="text-white text-lg font-semibold p-4">
+              <p class="text-green-500 text-xl">Gaming Dashboard</p>
+              <p class="text-sm">— Games, Streaming</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item relative group hidden-item uiux">
+          <img
+            src="img/work/work-4.jpg"
+            alt="Drugs Delivery App"
+            class="w-full h-56 object-cover rounded-lg"
+          />
+          <div
+            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center"
+          >
+            <div class="text-white text-lg font-semibold p-4">
+              <p class="text-green-500 text-xl">Drugs Delivery App</p>
+              <p class="text-sm">— Health, Drugs</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item relative group hidden-item graphic">
+          <img
+            src="img/work/work-5.jpg"
+            alt="Musics Discover"
+            class="w-full h-56 object-cover rounded-lg"
+          />
+          <div
+            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center"
+          >
+            <div class="text-white text-lg font-semibold p-4">
+              <p class="text-green-500 text-xl">Musics Discover</p>
+              <p class="text-sm">— Musics, Dashboard</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item relative group hidden-item wireframes">
+          <img
+            src="img/work/work-6.jpg"
+            alt="Game Streaming"
+            class="w-full h-56 object-cover rounded-lg"
+          />
+          <div
+            class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center"
+          >
+            <div class="text-white text-lg font-semibold p-4">
+              <p class="text-green-500 text-xl">Game Streaming</p>
+              <p class="text-sm">— Games, Streaming</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-8">
+        <button
+          id="load-more"
+          class="bg-green-500 text-white px-6 py-3 rounded-full focus:outline-none hover:bg-green-600 transition duration-300"
+        >
+          Load More
+        </button>
+      </div>
+    </section>
+
+    <!-- JavaScript for Load More Functionality -->
+    <script>
+      document
+        .getElementById('load-more')
+        .addEventListener('click', function () {
+          const hiddenItems = document.querySelectorAll('.hidden-item');
+          hiddenItems.forEach((item, index) => {
+            if (index < 3) {
+              // Reveal 3 more items at a time
+              item.classList.remove('hidden-item');
+            }
+          });
+
+          // Hide the Load More button if all items are revealed
+          if (document.querySelectorAll('.hidden-item').length === 0) {
+            this.style.display = 'none';
+          }
+        });
+
+      // Filter functionality
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+      filterButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          // Remove active class from all buttons
+          filterButtons.forEach((btn) =>
+            btn.classList.remove('bg-green-500', 'text-white')
+          );
+          button.classList.add('bg-green-500', 'text-white');
+
+          const category = button.getAttribute('data-category');
+
+          portfolioItems.forEach((item) => {
+            if (category === 'all') {
+              item.classList.remove('hidden');
+            } else {
+              if (item.classList.contains(category)) {
+                item.classList.remove('hidden');
+              } else {
+                item.classList.add('hidden');
+              }
+            }
+          });
+        });
+      });
+    </script>
+
+    <!-- Clients Statement -->
+    <div class="bg-gray-100 pt-10 pb-10">
+      <div class="container mx-auto my-16 ml-10 mr-10 px-4">
+        <h2 class="text-center text-3xl font-semibold mb-8">
+          What Clients are Saying
+        </h2>
+        <div
+          class="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8"
+        >
+          <div class="w-full md:w-1/3 flex justify-center">
+            <img
+              src="img/client.jpg"
+              alt="Client photo"
+              class="rounded-lg shadow-lg object-cover h-64 w-64"
+            />
+          </div>
+          <!-- Testimonial Section -->
+          <div class="w-full md:w-2/3">
+            <p class="text-gray-600 leading-relaxed mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              natus expedita ab facilis ut, animi explicabo amet. Voluptatibus
+              possimus iste enim, doloremque, fugiat accusamus nisi optio fugit
+              ratione expedita harum?
+            </p>
+            <div class="flex items-center">
+              <img
+                src="img/client.jpg"
+                alt=""
+                class="h-12 w-12 rounded-full mr-4"
+              />
+              <div>
+                <h4 class="text-lg font-bold">Olivia Emily</h4>
+                <p class="text-sm text-gray-500">CEO GreenBot</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Section -->
+    <section class="max-w-7xl mx-auto py-12 px-4">
+      <div class="flex justify-center mb-4">
+        <span
+          class="bg-red-100 text-green-500 text-sm font-semibold px-4 py-1 rounded-full"
+        >
+          Contact
+        </span>
+      </div>
+
+      <!-- Section Title -->
+      <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">
+        Get in touch
+      </h2>
+
+      <!-- Contact Form and Map -->
+      <div class="grid grid-cols-1 ml-10 mr-10 md:grid-cols-2 gap-8">
+        <div class="h-96">
+          <iframe
+            width="100%"
+            height="100%"
+            frameborder="0"
+            style="border: 0"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345098073!2d144.95373531531564!3d-37.81627944201444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577b9d5a6ff9274!2sEnvato!5e0!3m2!1sen!2sus!4v1633519949730!5m2!1sen!2sus"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          >
+          </iframe>
+        </div>
+
+        <!-- Contact Form -->
+        <div>
+          <form>
+            <div class="mb-4">
+              <input
+                type="text"
+                placeholder="Your Name"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+              />
+            </div>
+            <div class="mb-4">
+              <input
+                type="email"
+                placeholder="Email Address"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+              />
+            </div>
+            <div class="mb-4">
+              <input
+                type="text"
+                placeholder="Subject"
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+              />
+            </div>
+            <div class="mb-4">
+              <textarea
+                placeholder="Enter message here..."
+                class="w-full h-32 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+              >
+              </textarea>
+            </div>
+            <div>
+              <button
+                type="submit"
+                class="bg-green-500 text-white px-6 py-3 rounded-full focus:outline-none hover:bg-green-600 transition duration-300"
+              >
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-white py-12">
+      <div class="container mx-auto ml-10 mr-10 px-4">
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left"
+        >
+          <div>
+            <h4 class="font-semibold mb-4">Where to find me</h4>
+            <p class="text-gray-400">----------------</p>
+            <p class="text-gray-300 mt-4">
+              Talaimari<br />
+              Rajshahi, Bangladesh
+            </p>
+          </div>
+
+          <!-- Social Media Links Section -->
+          <div>
+            <h4 class="font-semibold mb-4">Follow me</h4>
+            <p class="text-gray-400">----------------</p>
+            <ul class="text-gray-300 mt-4 space-y-2">
+              <li><a href="#" class="hover:text-green-500">Instagram</a></li>
+              <li><a href="#" class="hover:text-green-500">Facebook</a></li>
+              <li><a href="#" class="hover:text-green-500">Twitter</a></li>
+              <li><a href="#" class="hover:text-green-500">YouTube</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Info Section -->
+          <div>
+            <h4 class="font-semibold mb-4">Contact me</h4>
+            <p class="text-gray-400">----------------</p>
+            <ul class="text-gray-300 mt-4 space-y-2">
+              <li>
+                <a
+                  href="mailto:sajjadsiam@yahoo.com"
+                  class="hover:text-green-500"
+                  >sajjadsiam@yahoo.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+8801787912976" class="hover:text-green-500"
+                  >+8801787912976</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="mt-12 text-center">
+          <h4 class="font-semibold mb-4">Subscribe</h4>
+          <div class="flex justify-center">
+            <input
+              type="email"
+              placeholder="Email address"
+              class="p-3 rounded-l-lg w-2/3 md:w-1/3 border-none focus:outline-none"
+            />
+            <button
+              class="bg-green-500 text-white px-4 py-3 rounded-r-lg hover:bg-green-600"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+
+        <div class="mt-8 text-center text-gray-500 text-sm">
+          <p>
+            Copyright ©2024. All rights reserved |
+            <a href="#" class="hover:text-green-500">Sajjad Siam</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
