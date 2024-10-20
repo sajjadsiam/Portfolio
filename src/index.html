@@ -20,7 +20,9 @@
         class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-4"
       >
         <!-- Logo / Site Title -->
-        <div class="text-2xl font-bold text-white">Sajjad Siam</div>
+        <div class="text-2xl font-bold text-white hover:text-green-500">
+          Sajjad Siam
+        </div>
 
         <!-- Navigation Links (hidden on small screens) -->
         <nav class="hidden md:flex space-x-6">
@@ -41,20 +43,7 @@
         <!-- Hamburger Menu Button for small screens -->
         <div class="md:hidden">
           <button id="menu-toggle" class="text-white focus:outline-none">
-            <svg
-              class="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16m-7 6h7"
-              ></path>
-            </svg>
+            <i id="menu-icon" class="fas fa-bars text-2xl"></i>
           </button>
         </div>
       </div>
@@ -101,8 +90,8 @@
         class="relative z-10 flex flex-col items-center justify-center h-full text-center"
       >
         <h1 class="text-5xl md:text-6xl font-bold text-white">Welcome</h1>
-        <h2 class="text-4xl md:text-5xl font-bold text-green-500 mt-4">
-          I'm Sajjad Siam
+        <h2 class="text-4xl md:text-5xl font-bold text-white mt-4">
+          I'm <span class="text-green-500">Sajjad Siam</span>
         </h2>
         <p class="text-xl md:text-2xl text-gray-300 mt-2">
           Web Designer & Developer
